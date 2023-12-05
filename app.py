@@ -15,7 +15,8 @@ def load_data(path):
     df = pd.read_csv(path)
     return df
 
-mpg_df_raw = load_data(path = "C:/Users/eltos/OneDrive/Jobbie/Data_Science_Bootcamp/VIZ_StreamAPP_Projects/my-first-streamlitapp/data/mpg.csv")
+# mpg_df_raw = load_data(path = "C:/Users/eltos/OneDrive/Jobbie/Data_Science_Bootcamp/VIZ_StreamAPP_Projects/my-first-streamlitapp/data/mpg.csv")
+mpg_df_raw = load_data(path = "./data/mpg.csv")
 mpg_df = deepcopy(mpg_df_raw)
  
 
